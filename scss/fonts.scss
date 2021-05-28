@@ -1,0 +1,310 @@
+@font-face {
+    font-family: OverpassEB;
+    src: url('../fonts/Overpass-ExtraBold.eot');
+	src: local('☺'), url('../fonts/Overpass-ExtraBold.woff') format('woff'), url('../fonts/Overpass-ExtraBold.ttf') format('truetype'), url('../fonts/Overpass-ExtraBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url('../fonts/Overpass-Regular.eot');
+	src: local('☺'), url('../fonts/Overpass-Regular.woff') format('woff'), url('../fonts/Overpass-Regular.ttf') format('truetype'), url('../fonts/Overpass-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin text1 {
+   font-family: Overpass;
+   font-size: 1.25rem;
+   line-height: 72px;
+   font-weight: 400;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+@mixin text2 {
+   font-family: OverpassEB;
+   font-size: 1.125rem;
+   line-height: 72px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin text3 {
+font-family: Roboto;
+font-size: 1.25rem;
+line-height: 28px;
+font-weight: 400;
+letter-spacing: normal;
+color: #5e5858;
+}
+
+@mixin text4 {
+   font-family: Roboto;
+   font-size: 1.1875rem;
+   line-height: 32px;
+   font-weight: 400;
+   letter-spacing: normal;
+   color: #5e5858;
+}
+
+@mixin text5 {
+   font-family: Roboto;
+   font-size: 1.5rem;
+   line-height: 36px;
+   font-weight: 400;
+   text-transform: none;
+   letter-spacing: normal;
+   color: #5e5858;
+}
+
+@mixin text6 {
+   font-family: Roboto;
+   font-size: 18px;
+   line-height: 27px;
+   font-weight: 400;
+   color: #5e5858;
+}
+
+@mixin text10 {
+   font-family: Roboto;
+   font-size: 20px;
+   line-height: 32px;
+   font-weight: 400;
+   letter-spacing: normal;
+   color: #5e5858;
+}
+
+@mixin title1 {
+   font-family: OverpassEB;
+   font-size: 5.625rem;
+   line-height: 108px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin title2 {
+font-family: OverpassEB;
+font-size: 3.75rem;
+line-height: 90px;
+text-transform: none;
+letter-spacing: -0.025em;
+color: #111111;
+}
+
+@mixin title3 {
+font-family: OverpassEB;
+font-size: 1.875rem;
+line-height: 42px;
+font-weight: 800;
+letter-spacing: -0.025em;
+color: #111111;
+}
+
+@mixin title4 {
+   font-family: OverpassEB;
+   font-size: 3.75rem;
+   line-height: 72px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #222222;
+}
+
+@mixin title5 {
+   font-family: OverpassEB;
+   font-size: 2.625rem;
+   line-height: 54px;
+   color: #111111;
+}
+
+@mixin title6 {
+   font-family: OverpassEB;
+   font-size: 1.5rem;
+   line-height: 48px;
+   font-weight: 800;
+   color: #111111;
+}
+
+@mixin title7 {
+   font-family: OverpassEB;
+   font-size: 2.625rem;
+   line-height: 54px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin title8 {
+   font-family: OverpassEB;
+   font-size: 21px;
+   line-height: 24px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin title9 {
+   font-family: OverpassEB;
+   font-size: 24px;
+   line-height: 36px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin title10 {
+   font-family: OverpassEB;
+   font-size: 21px;
+   line-height: 30px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin title11 {
+   font-family: OverpassEB;
+   font-size: 24px;
+   line-height: 26px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin title12 {
+   font-family: Overpass;
+   font-size: 18px;
+   line-height: 26px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin subtitle {
+   font-family: Roboto;
+   font-size: 1.875rem;
+   line-height: 72px;
+   font-weight: 400;
+   letter-spacing: normal;
+   color: #5e5858;
+}
+
+@mixin subtitle2 {
+   font-family: OverpassEB;
+   font-size: 1.5rem;
+   line-height: 72px;
+   font-weight: 800;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   color: #c04ae2;
+}
+
+@mixin subtitle3 {
+   font-family: Roboto;
+   font-size: 1.5rem;
+   line-height: 36px;
+   font-weight: 400;
+   letter-spacing: normal;
+   color: #5e5858;
+}
+
+@mixin subtitle4 {
+   font-family: OverpassEB;
+   font-size: 1.5rem;
+   line-height: 42px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+}
+@mixin subtitle5 {
+   font-family: Roboto;
+   font-size: 1.125rem;
+   line-height: 36px;
+   font-weight: 400;
+   color: #adb0ba;
+}
+
+@mixin subtitle6 {
+   font-family: Roboto;
+   font-size: 18px;
+   line-height: 30px;
+   font-weight: 400;
+   letter-spacing: normal;
+   color: #5e5858;
+}
+@mixin subtitle7 {
+   font-family: Overpass;
+   font-size: 18px;
+   line-height: 30px;
+   font-weight: 700;
+   letter-spacing: -0.025em;
+}
+
+@mixin subtitle8 {
+   font-family: Roboto;
+   font-size: 18px;
+   line-height: 30px;
+   font-weight: 400;
+   letter-spacing: normal;
+   color: #5e5858;
+}
+
+@mixin btn1 {
+   font-family: OverpassEB;
+   font-size: 1.5rem;
+   line-height: 108px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #ffffff;
+}
+
+@mixin btn2 {
+   font-family: OverpassEB;
+   font-size: 1.125rem;
+   line-height: 100px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #ffffff;
+}
+
+@mixin btn3 {
+   font-family: OverpassEB;
+   font-size: 1.125rem;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin btn4 {
+   font-family: OverpassEB;
+   font-size: 18px;
+   line-height: 36px;
+   font-weight: 800;
+   letter-spacing: -0.025em;
+   color: #111111;
+}
+
+@mixin inp {
+   font-family: Roboto;
+   font-size: 20px;
+   line-height: 28px;
+   font-weight: 400;
+   color: #999999;
+}
+
+
+@mixin number {
+   font-family: Roboto;
+   font-size: 19px;
+   line-height: 28px;
+   font-weight: 400;
+   color: #adb0ba;
+}

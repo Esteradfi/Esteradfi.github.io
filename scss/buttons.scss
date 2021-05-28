@@ -1,0 +1,82 @@
+@import "fonts.scss";
+
+
+//Buttons
+
+.category {
+    @include text1;
+    transition: 0.4s ease;
+    &:hover {
+        border: none;
+        background-color: #c04ae2 !important;
+        color: #ebeafa !important;
+    }
+
+}
+.get-empty {
+    @include text2;
+    padding: 16px 43px;
+    border: 2px solid #c04ae2;
+    border-radius: 7px;
+    height: 3rem !important;
+    transition: 0.4s ease;
+    &:hover {
+        border: none;
+        background-color: #c04ae2;
+        color: #ebeafa;
+    }
+}
+.get {
+    @include btn1;
+    background-color: #c04ae2;
+    color: #fff;
+    padding: 26px 60px;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.07);
+    border-radius: 7px;
+    transition: 0.4s ease;
+    &:hover {
+        border: 2px solid #c04ae2;
+        background-color: transparent;
+        color: #111;
+        transition: 0.4s ease;
+    }
+}
+.get-white {
+    @include btn2;
+    padding: 18.5px 47px;
+    border: 2px solid #c04ae2;
+    border-radius: 7px;
+    transition: 0.4s ease;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.07);
+    background-color: #c04ae2;
+    &:hover {
+        border: 2px solid #c04ae2;
+        background-color: transparent;
+        color: #111;
+        transition: 0.4s ease;
+    }
+}
+.portfolio {
+    @include btn3;
+    padding: 14.5px 47px;
+    border: 2px solid #c04ae2;
+    border-radius: 7px;
+    transition: 0.4s ease;
+    &:hover {
+        border: none;
+        background-color: #c04ae2;
+        color: #ebeafa;
+    }
+}
+.bottom-border {
+    @include btn4;
+    padding: 11px 22px;
+    border-bottom: 2px solid #c04ae2;
+    transition: 0.4s ease;
+    &:hover {
+        border: none;
+        background-color: #c04ae2;
+        color: #ebeafa;
+        border-radius: 7px;
+    }
+}
